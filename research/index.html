@@ -20,8 +20,7 @@ stylesheet: research.css
     </div>
   </section>
 
-  {% assign publication_years = site.data.publications | sort | reverse %}
-  {% for year_pair in publication_years %}
+  {% for year_pair in site.data.publications reversed %}
     {% assign group = year_pair[1] %}
     <section class="year-section">
       <div class="year-heading">{{ group.year }}</div>
