@@ -14,7 +14,11 @@ stylesheet: members.css
     <div class="members-grid">
       {% for member in site.data.members.phd %}
       <article class="member">
+        {% if member.photo contains '://' %}
         <img src="{{ member.photo }}" alt="{{ member.name }}" />
+        {% else %}
+        <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" />
+        {% endif %}
         <div class="member-copy">
           <h3>{% if member.homepage %}<a href="{{ member.homepage }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
           <p class="research-interest">{{ member.research_interests }}</p>
@@ -33,7 +37,11 @@ stylesheet: members.css
     <div class="members-grid">
       {% for member in site.data.members.ms %}
       <article class="member">
+        {% if member.photo contains '://' %}
         <img src="{{ member.photo }}" alt="{{ member.name }}" />
+        {% else %}
+        <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" />
+        {% endif %}
         <div class="member-copy">
           <h3>{% if member.homepage %}<a href="{{ member.homepage }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
           <p class="research-interest">{{ member.research_interests }}</p>
