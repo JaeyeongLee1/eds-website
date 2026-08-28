@@ -1,0 +1,38 @@
+year: 2021
+items:
+- code: C8
+  type: conference
+  title: 'ABC: Auxiliary Balanced Classifier for Class-imbalanced Semi-supervised Learning'
+  authors: H. Lee, S. Shin, and H. Kim
+  citation: Conference on Neural Information Processing Systems (NeurIPS) 2021.
+  venue: NeurIPS
+- code: C7
+  type: conference
+  title: Locally Most Powerful Bayesian Test for Out-of-Distribution Detection using Deep Generative Models
+  authors: K. Kim, J. Shin, and H. Kim
+  citation: Conference on Neural Information Processing Systems (NeurIPS) 2021.
+  venue: NeurIPS
+- code: C6
+  type: conference
+  title: Objective Bound Conditional Gaussian Process for Bayesian Optimization
+  authors: T. Jeong and H. Kim
+  citation: International Conference on Machine Learning (ICML) 2021.
+  venue: ICML
+- code: J39
+  type: journal
+  title: Robust estimation of sparse precision matrix using adaptive weighted graphical Lasso approach
+  authors: P. Tang, H. Jiang, H. Kim, and X. Deng
+  citation: Journal of Nonparametric Statistics, 33, 249-272.
+  venue: Journal of Nonparametric Statistics
+- code: J38
+  type: journal
+  title: Bayesian Variable Selection in Clustering High-Dimensional Data via a Mixture of Finite Mixtures
+  authors: W. Doo and H. Kim
+  citation: Journal of Statistical Computation and Simulation, 91, 2551-2568.
+  venue: Journal of Statistical Computation and Simulation
+- code: J37
+  type: journal
+  title: Combined unsupervised-supervised machine learning for phenotyping complex diseases with its application to obstructive sleep apnea
+  authors: E.-Y. Ma, J.-W. Kim, Y. Lee, S.-W. Cho, H. Kim, and J. K. Kim
+  citation: Scientific Reports, 11, 4457.
+  venue: Scientific Reports
