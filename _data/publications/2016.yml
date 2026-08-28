@@ -1,0 +1,32 @@
+year: 2016
+items:
+- code: C3
+  type: conference
+  title: 'Looking back on the current day: interruptibility prediction using daily behavioral features'
+  authors: M. Choy, D. Kim, J.-G. Lee, H. Kim, and H. Motoda
+  citation: ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp).
+  venue: UbiComp
+- code: C2
+  type: conference
+  title: Bayesian nonparametric collaborative topic Poisson factorization for electronic health records-based phenotyping
+  authors: W. S. Lee, Y. Lee, H. Kim, and I.-C. Moon
+  citation: International Joint Conference on Articial Intelligence (IJCAI).
+  venue: IJCAI
+- code: J11
+  type: journal
+  title: A multivariate loss function approach to robust design of systems with multiple performance characteristics
+  authors: W. Soh, H. Kim, and B.-J. Yum
+  citation: Quality and Reliability Engineering International, 32(8), 2685-2700.
+  venue: Quality and Reliability Engineering International
+- code: J10
+  type: journal
+  title: Ordinal classification of imbalanced data with application in emergency and disaster information services
+  authors: S. Kim, H. Kim, and Y. Namkoong
+  citation: IEEE Intelligent Systems, 31(5), 50-56.
+  venue: IEEE Intelligent Systems
+- code: J9
+  type: journal
+  title: A new metric of absolute percentage error for intermittent demand forecasts
+  authors: S. Kim and H. Kim
+  citation: International Journal of Forecasting, 32(3), 669-679.
+  venue: International Journal of Forecasting
