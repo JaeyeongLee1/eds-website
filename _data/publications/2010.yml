@@ -1,0 +1,8 @@
+year: 2010
+items:
+- code: C1
+  type: conference
+  title: Spatiotemporal event detection in mobility networks
+  authors: T. Au, R. Duan, H. Kim, and G.-Q. Ma
+  citation: IEEE International Conference on Data Mining (ICDM), 28-37.
+  venue: ICDM
