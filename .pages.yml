@@ -1,0 +1,263 @@
+media:
+  input: assets/images
+  output: /assets/images
+  rename: safe
+  categories: [image]
+
+settings:
+  commit:
+    identity: user
+    templates:
+      create: "content: create {path}"
+      update: "content: update {path}"
+      delete: "content: delete {path}"
+      rename: "content: rename {oldPath} -> {newPath}"
+
+content:
+  - name: professor
+    label: Professor
+    type: file
+    path: _data/professor.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: chair
+        label: Chair title
+        type: string
+      - name: positions
+        label: Positions
+        type: string
+        list: true
+      - name: institution
+        label: Institution
+        type: string
+      - name: address
+        label: Address
+        type: string
+      - name: office
+        label: Office
+        type: string
+      - name: tel
+        label: Telephone
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: photo
+        label: Photo
+        type: image
+      - name: research_interests
+        label: Research interests
+        type: string
+        list: true
+      - name: research_goal
+        label: Research goal
+        type: text
+      - name: editorship
+        label: Editorship
+        type: string
+        list: true
+      - name: awards
+        label: Awards & Honors
+        type: string
+        list: true
+      - name: education
+        label: Education
+        type: string
+        list: true
+      - name: professional_experience
+        label: Professional Experience
+        type: string
+        list: true
+
+  - name: members
+    label: Members
+    type: file
+    path: _data/members.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: phd
+        label: Ph.D.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Name
+            type: string
+            required: true
+          - name: research_interests
+            label: Research Interests
+            type: string
+          - name: email
+            label: Email
+            type: string
+          - name: entry
+            label: Entry year
+            type: string
+          - name: homepage
+            label: Homepage
+            type: string
+          - name: photo
+            label: Photo
+            type: image
+      - name: ms
+        label: M.S.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Name
+            type: string
+            required: true
+          - name: research_interests
+            label: Research Interests
+            type: string
+          - name: email
+            label: Email
+            type: string
+          - name: entry
+            label: Entry year
+            type: string
+          - name: homepage
+            label: Homepage
+            type: string
+          - name: photo
+            label: Photo
+            type: image
+
+  - name: publications
+    label: Publications
+    type: collection
+    path: _data/publications
+    format: yaml
+    filename:
+      template: "{year}.yml"
+      field: false
+    view:
+      primary: year
+      sort: year
+      order: desc
+    fields:
+      - name: year
+        label: Year
+        type: number
+        required: true
+      - name: items
+        label: Publications
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{code} — {title}"
+        fields:
+          - name: code
+            label: Code
+            type: string
+            required: true
+          - name: type
+            label: Type
+            type: select
+            required: true
+            options:
+              values:
+                - value: journal
+                  label: Journal
+                - value: conference
+                  label: Conference
+          - name: title
+            label: Title
+            type: text
+            required: true
+          - name: authors
+            label: Authors
+            type: text
+            required: true
+          - name: citation
+            label: Full citation
+            type: text
+            required: true
+          - name: venue
+            label: Venue label
+            type: string
+            required: true
+
+  - name: phd_alumni
+    label: Ph.D. Alumni
+    type: file
+    path: _data/alumni/phd.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: degree
+        label: Degree
+        type: string
+        readonly: true
+      - name: items
+        label: Alumni
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year} — {name}"
+        fields:
+          - name: year
+            label: Year
+            type: number
+          - name: name
+            label: Name
+            type: string
+            required: true
+          - name: thesis
+            label: Thesis
+            type: text
+          - name: affiliation
+            label: Affiliation
+            type: text
+
+  - name: ms_alumni
+    label: M.S. Alumni
+    type: file
+    path: _data/alumni/ms.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: degree
+        label: Degree
+        type: string
+        readonly: true
+      - name: items
+        label: Alumni
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year} — {name}"
+        fields:
+          - name: year
+            label: Year
+            type: number
+          - name: name
+            label: Name
+            type: string
+            required: true
+          - name: thesis
+            label: Thesis
+            type: text
+          - name: affiliation
+            label: Affiliation
+            type: text
