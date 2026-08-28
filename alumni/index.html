@@ -1,0 +1,34 @@
+---
+layout: default
+title: Alumni
+nav: alumni
+stylesheet: alumni.css
+---
+<main class="page">
+  <section class="page-intro">
+    <h1>Alumni</h1>
+  </section>
+
+  {% assign groups = "phd,ms" | split: "," %}
+  {% for key in groups %}
+    {% assign group = site.data.alumni[key] %}
+    <section class="alumni-section">
+      <h2>{{ group.degree }}</h2>
+      <div class="alumni-list">
+        {% for person in group.items %}
+        <article class="alumnus">
+          <div class="year">{{ person.year }}</div>
+          <div class="record">
+            <h3>{{ person.name }}</h3>
+            <p class="degree">{{ group.degree }}, {{ person.year }}</p>
+            <p class="thesis">{{ person.thesis }}</p>
+          </div>
+          <div class="affiliation{% unless person.affiliation %} affiliation-empty{% endunless %}{% if person.affiliation == '' %} affiliation-empty{% endif %}">
+            <span>Affiliation</span><p>{{ person.affiliation }}</p>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</main>
