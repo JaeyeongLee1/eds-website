@@ -1,0 +1,10 @@
+title: "Engineering Data Science Lab."
+description: "Engineering Data Science Lab, Department of Industrial and Systems Engineering, KAIST."
+url: "https://jaeyeonglee1.github.io"
+baseurl: "/eds-website"
+permalink: pretty
+
+exclude:
+  - README.md
+  - ADMIN_GUIDE.md
+  - AGENTS.md
