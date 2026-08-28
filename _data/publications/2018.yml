@@ -1,0 +1,32 @@
+year: 2018
+items:
+- code: J23
+  type: journal
+  title: 'Modeling the probability of a batter/pitcher matchup event: A Bayesian approach'
+  authors: W. Doo and H. Kim
+  citation: PLoS ONE, 13(1), e0204874.
+  venue: PLoS ONE
+- code: J22
+  type: journal
+  title: Functional logistic regression with fused lasso penalty
+  authors: H. Kim and H. Kim
+  citation: Journal of Statistical Computation and Simulation, 88(15), 2982-2999.
+  venue: Journal of Statistical Computation and Simulation
+- code: J21
+  type: journal
+  title: Classification of mixed-type defect patterns in wafer bin maps using convolutional neural networks
+  authors: K. Kyeong and H. Kim
+  citation: IEEE Transactions on Semiconductor Manufacturing, 31(3), 395-402 .
+  venue: IEEE Transactions on Semiconductor Manufacturing
+- code: J20
+  type: journal
+  title: Detection and clustering of mixed-type defect patterns in wafer bin maps
+  authors: J. Kim, Y. Lee, and H. Kim
+  citation: IISE Transactions, 50(2), 99-111. (Selected as a featured article and highlighted in the ISE magazine)
+  venue: IISE Transactions
+- code: J19
+  type: journal
+  title: Application of kernel principal component analysis to multi-characteristic parameter design problems
+  authors: W. Soh, H. Kim, and B.-J. Yum
+  citation: Annals of Operations Research, 263, 69-91.
+  venue: Annals of Operations Research
