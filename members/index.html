@@ -1,0 +1,49 @@
+---
+layout: default
+title: Members
+nav: members
+stylesheet: members.css
+---
+<main class="page">
+  <section class="page-intro">
+    <h1>Members</h1>
+  </section>
+
+  <section class="member-section">
+    <h2>Ph.D.</h2>
+    <div class="members-grid">
+      {% for member in site.data.members.phd %}
+      <article class="member">
+        <img src="{{ member.photo }}" alt="{{ member.name }}" />
+        <div class="member-copy">
+          <h3>{% if member.homepage %}<a href="{{ member.homepage }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
+          <p class="research-interest">{{ member.research_interests }}</p>
+          <dl>
+            <div><dt>Email</dt><dd>{{ member.email }}</dd></div>
+            <div><dt>Entry</dt><dd>{{ member.entry }}</dd></div>
+          </dl>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="member-section">
+    <h2>M.S.</h2>
+    <div class="members-grid">
+      {% for member in site.data.members.ms %}
+      <article class="member">
+        <img src="{{ member.photo }}" alt="{{ member.name }}" />
+        <div class="member-copy">
+          <h3>{% if member.homepage %}<a href="{{ member.homepage }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
+          <p class="research-interest">{{ member.research_interests }}</p>
+          <dl>
+            <div><dt>Email</dt><dd>{{ member.email }}</dd></div>
+            <div><dt>Entry</dt><dd>{{ member.entry }}</dd></div>
+          </dl>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+</main>
