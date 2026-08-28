@@ -1,0 +1,62 @@
+year: 2020
+items:
+- code: C5
+  type: conference
+  title: 'OOD-MAML: Meta-Learning for Few-Shot Out-of-Distribution Detection and Classification'
+  authors: T. Jeong and H. Kim
+  citation: Conference on Neural Information Processing Systems (NeurIPS) 2020.
+  venue: NeurIPS
+- code: J36
+  type: journal
+  title: Semi-Supervised Multi-Label Learning for Classification of Wafer Bin Maps with Mixed-Type Defect Patterns
+  authors: H. Lee and H. Kim
+  citation: IEEE Transactions on Semiconductor Manufacturing , 33(4), 653-662.
+  venue: IEEE Transactions on Semiconductor Manufacturing
+- code: J35
+  type: journal
+  title: Multiresolution spatial generalized linear mixed model for integrating multi-fidelity spatial count data without common identifiers between data sources
+  authors: S. Kim, R. Duan, G.-Q. Ma, and H. Kim
+  citation: Spatial Statistics , 39, 100467.
+  venue: Spatial Statistics
+- code: J34
+  type: journal
+  title: Memory-augmented convolutional neural networks with triplet loss for imbalanced wafer defect pattern classification
+  authors: Y. Hyun and H. Kim
+  citation: IEEE Transactions on Semiconductor Manufacturing, 33(4), 622-634.
+  venue: IEEE Transactions on Semiconductor Manufacturing
+- code: J33
+  type: journal
+  title: Bayesian nonparametric latent class model for longitudinal data
+  authors: W. Koo and H. Kim
+  citation: Statistical Methods in Medical Research, 29(11), 3381-3395.
+  venue: Statistical Methods in Medical Research
+- code: J32
+  type: journal
+  title: Variational deep clustering of wafer map patterns
+  authors: J. Hwang and H. Kim
+  citation: IEEE Transactions on Semiconductor Manufacturing, 33(3), 466-475.
+  venue: IEEE Transactions on Semiconductor Manufacturing
+- code: J31
+  type: journal
+  title: Bayesian nonparametric joint mixture model for clustering spatially correlated time series
+  authors: Y. Lee and H. Kim
+  citation: Technometrics, 62(3), 313-329.
+  venue: Technometrics
+- code: J30
+  type: journal
+  title: A Bayesian nonparametric mixture measurement error model with application to spatial density estimation using mobile positioning data with multi-accuracy and multi-coverage
+  authors: Y. Lee, T. Jeong, and H. Kim
+  citation: Technometrics, 62(2), 173-183.
+  venue: Technometrics
+- code: J29
+  type: journal
+  title: Fault classification in high-dimensional complex processes using semi-supervised deep convolutional generative models
+  authors: T. Ko and H. Kim
+  citation: IEEE Transactions on Industrial Informatics, 16(4), 2868-2877.
+  venue: IEEE Transactions on Industrial Informatics
+- code: J28
+  type: journal
+  title: A multiscale spatially varying coefficient model for regional analysis of topsoil geochemistry
+  authors: K. Kim, H. Kim, V. Kim, and H. Kim
+  citation: Journal of Agricultural, Biological, and Environmental Statistics, 25, 74-89.
+  venue: Journal of Agricultural, Biological, and Environmental Statistics
