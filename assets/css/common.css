@@ -1,0 +1,57 @@
+/* Shared production header behavior. Keep the wordmark typographic and restrained. */
+.brand {
+  align-items: center;
+  gap: 18px;
+}
+.brand strong {
+  font-size: 0;
+  line-height: 1;
+  letter-spacing: 0;
+}
+.brand strong .eds-initial {
+  display: inline-block;
+  color: #111111;
+  font-size: 30px;
+  line-height: .82;
+  font-weight: 850;
+  letter-spacing: -0.055em;
+  vertical-align: 0;
+}
+.brand strong::after {
+  content: "L";
+  display: inline-block;
+  color: #111111;
+  font-size: 30px;
+  line-height: .82;
+  font-weight: 850;
+  letter-spacing: -0.055em;
+  vertical-align: 0;
+}
+.brand > span {
+  position: relative;
+  top: 4px;
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  padding-left: 17px;
+  border-left: 1px solid #c8ccd0;
+  font-size: 0;
+  line-height: 1.2;
+}
+.brand > span::before {
+  content: "Engineering Data Science Lab.";
+  color: #50555b;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+@media (max-width: 1020px) {
+  .brand {
+    display: flex;
+    gap: 14px;
+  }
+  .brand > span {
+    top: 3px;
+    padding-left: 14px;
+  }
+}
