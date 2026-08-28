@@ -1,0 +1,32 @@
+year: 2019
+items:
+- code: C4
+  type: conference
+  title: Ladder Capsule Network
+  authors: T. Jeong, Y. Lee, and H. Kim
+  citation: 'International Conference on Machine Learning (ICML), pp. 3071-3079, Long Beach, CA, USA, June 2019. (Acceptance rate: 22.6%)'
+  venue: ICML
+- code: J27
+  type: journal
+  title: Spatio-temporal autoregressive model for origin-destination air passenger flows
+  authors: K. Kim, V. Kim, and H. Kim
+  citation: 'Journal of the Royal Statistical Society: Series A, 182(3), 1003-1016.'
+  venue: 'Journal of the Royal Statistical Society: Series A'
+- code: J26
+  type: journal
+  title: 'Crime risk maps: multivariate spatial analysis of crime data'
+  authors: J. Chung and H. Kim
+  citation: Geographical Analysis, 51(4), 475-499.
+  venue: Geographical Analysis
+- code: J25
+  type: journal
+  title: 'Spatial cluster detection in mobility networks: a copula approach'
+  authors: H. Kim, R. Duan, S. Kim, J. Lee, and G.-Q. Ma
+  citation: 'Journal of the Royal Statistical Society: Series C, 68(1), 99-120.'
+  venue: 'Journal of the Royal Statistical Society: Series C'
+- code: J24
+  type: journal
+  title: A practical approach to measuring the impacts of stockouts on demand
+  authors: S. Kim, H. Kim, and J.-C. Lu
+  citation: Journal of Business & Industrial Marketing, 34(4), 891-901.
+  venue: Journal of Business & Industrial Marketing
