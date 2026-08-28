@@ -1,0 +1,68 @@
+year: 2024
+items:
+- code: C12
+  type: conference
+  title: Rebalancing Using Estimated Class Distribution for Imbalanced Semi-Supervised Learning under Class Distribution Mismatch
+  authors: T. Park, H. Lee, and H. Kim
+  citation: European Conference on Computer Vision (ECCV) 2024, Milan, Italy, September 2024.
+  venue: ECCV
+- code: C11
+  type: conference
+  title: Uncertainty Estimation by Density Aware Evidential Deep Learning
+  authors: T. Yoon and H. Kim
+  citation: International Conference on Machine Learning (ICML), Vienna, Austria, July 2024.
+  venue: ICML
+- code: J58
+  type: journal
+  title: Few-shot Classification of Wafer Bin Maps Using Transfer Learning and Ensemble Learning
+  authors: H. Kim, H. Yoon, and H. Kim
+  citation: ASME Journal of Manufacturing Science and Engineering, 146(7), 070903.
+  venue: ASME Journal of Manufacturing Science and Engineering
+- code: J57
+  type: journal
+  title: Classification of Chip-level Defect Types in Wafer Bin Maps Using Only Wafer-level Labels
+  authors: H. Lee, H. Kim, and H. Kim
+  citation: ASME Journal of Manufacturing Science and Engineering, 146(7), 070902.
+  venue: ASME Journal of Manufacturing Science and Engineering
+- code: C10
+  type: conference
+  title: 'CDMAD: Class-Distribution-Mismatch-Aware Debiasing for Class-Imbalanced Semi-Supervised Learning'
+  authors: H. Lee and H. Kim
+  citation: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024, Seattle, USA, June 2024.
+  venue: CVPR
+- code: J56
+  type: journal
+  title: Deep Latent Factor Model for Spatio-Temporal Forecasting
+  authors: W. Koo, E.-Y. Ma, and H. Kim
+  citation: Technometrics, 66(3), 470-482. (IISE Quality Control and Reliability Engineering (QCRE) Track Best Paper Competition Finalist)
+  venue: Technometrics
+- code: J55
+  type: journal
+  title: A Tutorial on Matching-based Causal Analysis of Human Behaviors Using Smartphone Sensor Data
+  authors: G. Jung, S. Park, E.-Y. Ma, H. Kim, and U. Lee
+  citation: ACM Computing Surveys, 56(9), 1-33.
+  venue: ACM Computing Surveys
+- code: J54
+  type: journal
+  title: Simultaneous Classification and Out-of-Distribution Detection for Wafer Bin Maps
+  authors: J. Choi, E.-Y. Ma, and H. Kim
+  citation: Quality Engineering, 36(4), 713-725.
+  venue: Quality Engineering
+- code: J53
+  type: journal
+  title: Simultaneous Deep Clustering and Feature Selection via K-concrete Autoencoder
+  authors: W. Doo and H. Kim
+  citation: IEEE Transactions on Knowledge and Data Engineering, 36, 2629-2642.
+  venue: IEEE Transactions on Knowledge and Data Engineering
+- code: J52
+  type: journal
+  title: Mixed-Type Defect Pattern Recognition in Noisy Labeled Wafer Bin Maps
+  authors: S. Kim and H. Kim
+  citation: Quality Engineering, 36(4), 743-757.
+  venue: Quality Engineering
+- code: J51
+  type: journal
+  title: Spatially-Correlated Time Series Clustering Using Location-Dependent Dirichlet Process Mixture Model
+  authors: J. Jung, S. Kim, and H. Kim
+  citation: Statistical Analysis and Data Mining, 17(1), e11649.
+  venue: Statistical Analysis and Data Mining
