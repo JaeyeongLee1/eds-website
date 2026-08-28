@@ -1,0 +1,20 @@
+year: 2022
+items:
+- code: J42
+  type: journal
+  title: Deep Gaussian process models for integrating multifidelity experiments with non-stationary relationships
+  authors: J. Ko and H. Kim
+  citation: IISE Transactions, 54(7), 686-698. (Selected as a featured article and highlighted in the ISE magazine)
+  venue: IISE Transactions
+- code: J41
+  type: journal
+  title: Simultaneous band selection and segmentation of hyperspectral images via a mixture of finite maximum margin mixtures
+  authors: W. Doo and H. Kim
+  citation: International Journal of Remote Sensing , 43(6), 2296-2314.
+  venue: International Journal of Remote Sensing
+- code: J40
+  type: journal
+  title: Toward robust battle experimental design for command and control of mechanized infantry brigade
+  authors: W.-S. Yun, S. Ko, M. Byun, H. Kim, I.-C. Moon, and T.-E. Lee
+  citation: Military Operations Research, 27(1), 45-72.
+  venue: Military Operations Research
