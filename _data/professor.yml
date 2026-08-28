@@ -8,7 +8,7 @@ address: "291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea"
 office: "E2-1 #4214"
 tel: "(82)+42-350-3125"
 email: "heeyoungkim(at)kaist.ac.kr"
-photo: "https://jaeyeonglee1.github.io/eds-lab-preview/professor/professor-photo.jpg"
+photo: "/assets/images/professor/professor-photo.jpg"
 
 research_interests:
   - "Statistics"
