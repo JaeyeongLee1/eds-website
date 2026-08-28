@@ -1,0 +1,61 @@
+---
+layout: default
+title: Professor
+nav: professor
+stylesheet: professor.css
+---
+{% assign p = site.data.professor %}
+<main class="page">
+  <section class="intro">
+    <h1><span class="eds-e">E</span>ngineering <span class="eds-d">D</span>ata <span class="eds-s">S</span>cience Lab.</h1>
+    <p>Department of Industrial and Systems Engineering, KAIST</p>
+  </section>
+
+  <section class="section">
+    <h2>Professor</h2>
+    <div class="section-content professor-card">
+      <img class="professor-photo" src="{{ p.photo }}" alt="Heeyoung Kim" />
+      <div class="professor-info">
+        <h3>{{ p.name }}</h3>
+        <p class="chair">{{ p.chair }}</p>
+        {% for item in p.positions %}<p>{{ item }}</p>{% endfor %}
+        <p class="institution">{{ p.institution }}</p>
+        <p>{{ p.address }}</p>
+        <div class="contact-block">
+          <p><strong>Office</strong> : {{ p.office }}, &nbsp;&nbsp; <strong>Tel</strong> : {{ p.tel }}</p>
+          <p><strong>Email</strong> : {{ p.email }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section research-section">
+    <h2>Research Interests</h2>
+    <div class="section-content">
+      <div class="interests">
+        {% for interest in p.research_interests %}<div>{{ interest }}</div>{% endfor %}
+      </div>
+      <p class="lab-goal">{{ p.research_goal }}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Editorship</h2>
+    <div class="section-content"><ul class="clean-list">{% for item in p.editorship %}<li>{{ item }}</li>{% endfor %}</ul></div>
+  </section>
+
+  <section class="section">
+    <h2>Awards &amp; Honors</h2>
+    <div class="section-content"><ul class="clean-list">{% for item in p.awards %}<li>{{ item }}</li>{% endfor %}</ul></div>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+    <div class="section-content"><ul class="clean-list">{% for item in p.education %}<li>{{ item }}</li>{% endfor %}</ul></div>
+  </section>
+
+  <section class="section">
+    <h2>Professional Experience</h2>
+    <div class="section-content"><ul class="clean-list">{% for item in p.professional_experience %}<li>{{ item }}</li>{% endfor %}</ul></div>
+  </section>
+</main>
