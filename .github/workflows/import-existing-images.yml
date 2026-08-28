@@ -1,0 +1,44 @@
+name: Import existing EDSL images
+
+on:
+  push:
+    paths:
+      - '.github/workflows/import-existing-images.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download images from the design prototype
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/images/professor assets/images/members
+          base="https://raw.githubusercontent.com/JaeyeongLee1/JaeyeongLee1.github.io/main/eds-lab-preview"
+          curl -fL "$base/professor/professor-photo.jpg" -o assets/images/professor/professor-photo.jpg
+          curl -fL "$base/members/junsubjung.jpg" -o assets/images/members/junsubjung.jpg
+          curl -fL "$base/members/taeseongyoon.jpg" -o assets/images/members/taeseongyoon.jpg
+          curl -fL "$base/members/taeminpark.jpg" -o assets/images/members/taeminpark.jpg
+          curl -fL "$base/members/jaeyeonglee.jpg" -o assets/images/members/jaeyeonglee.jpg
+          curl -fL "$base/members/insoojung.jpg" -o assets/images/members/insoojung.jpg
+          curl -fL "$base/members/seungjunchoi.jpg" -o assets/images/members/seungjunchoi.jpg
+          curl -fL "$base/members/kyeongjunlee.jpg" -o assets/images/members/kyeongjunlee.jpg
+
+      - name: Commit imported images
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images
+          if git diff --cached --quiet; then
+            echo "No image changes to commit."
+          else
+            git commit -m "Import production site images"
+            git push
+          fi
