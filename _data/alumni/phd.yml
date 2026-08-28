@@ -1,0 +1,46 @@
+degree: Ph.D.
+items:
+- year: 2015
+  name: Woojin Soh
+  thesis: Development and Comparison of Parameter Design Methods for Multiple Performance Characteristics
+  affiliation: NVIDIA
+- year: 2020
+  name: Youngmin Lee
+  thesis: Bayesian Nonparametric Models for Spatial Data Analysis
+  affiliation: Samsung Electronics
+- year: 2021
+  name: Taewon Jeong
+  thesis: Machine Learning Methods for Black-Box Optimization and Image Classification
+  affiliation: Samsung Electronics
+- year: 2022
+  name: Hyojoong Kim
+  thesis: Machine Learning Methods for Contextual Anomaly Detection
+  affiliation: Assistant professor, Department of Industrial and Management Engineering, Myongji University
+- year: 2022
+  name: Keunseo Kim
+  thesis: Deep Learning Methods for Anomaly Detection and Robust Density Estimation
+  affiliation: Samsung Advanced Institute of Technology
+- year: 2022
+  name: Jinman Bak
+  thesis: Few-Shot Out-of-Distribution Detection and Classification for Mixed-Type Defect Patterns
+  affiliation: Defense Agency of Technology and Quality (DTaQ)
+- year: 2022
+  name: Woojin Doo
+  thesis: Simultaneous Clustering and Feature Selection for High-dimensional Data
+  affiliation: Samsung Electronics
+- year: 2024
+  name: Hyuck Lee
+  thesis: Class-Imbalanced Semi-Supervised Learning
+  affiliation: KRAFTON AI
+- year: 2025
+  name: Heegeon Yoon
+  thesis: Deep Learning Models for Robust Training of Incomplete and Imbalanced Data
+  affiliation: Samsung Electronics
+- year: 2025
+  name: Eun-Yeol Ma
+  thesis: Deep Learning Methods for Discovering Causal Factors and Their Applications
+  affiliation: Samsung AI Center
+- year: 2026
+  name: Wonmo Koo
+  thesis: Deep Learning Models for Multivariate Time Series Forecasting and Anomaly Detection
+  affiliation: Assistant Professor, Industrial Engineering, Pusan National University
