@@ -1,0 +1,32 @@
+year: 2025
+items:
+- code: C14
+  type: conference
+  title: Uncertainty Estimation by Flexible Evidential Deep Learning
+  authors: T. Yoon and H. Kim
+  citation: Conference on Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025.
+  venue: NeurIPS
+- code: C13
+  type: conference
+  title: Learnable Logit Adjustment for Imbalanced Semi-Supervised Learning under Class Distribution Mismatch
+  authors: H. Lee, T. Park, and H. Kim
+  citation: International Conference on Computer Vision (ICCV) 2025, Honolulu, Hawaii, USA, October 2025.
+  venue: ICCV
+- code: J61
+  type: journal
+  title: 'TSSI: Time Series as Screenshot Images for multivariate time series classification using convolutional neural networks'
+  authors: Y. Oh, H. Kim, and S. Kim
+  citation: Computers & Industrial Engineering, 209, 111393.
+  venue: Computers & Industrial Engineering
+- code: J60
+  type: journal
+  title: Simultaneous Treatment Effect Estimation and Variable Selection for Observational Data
+  authors: E.-Y. Ma, U. Lee, and H. Kim
+  citation: IISE Transactions, 57(4), 380-392.
+  venue: IISE Transactions
+- code: J59
+  type: journal
+  title: Multi-task optimization with Bayesian neural network surrogates for parameter estimation of a simulation model
+  authors: H. Kim, C. Park, and H. Kim
+  citation: Computational Statistics and Data Analysis, 204, 108097.
+  venue: Computational Statistics and Data Analysis
