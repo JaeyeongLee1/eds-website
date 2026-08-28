@@ -6,7 +6,7 @@
 
 1. `https://app.pagescms.org`에 접속합니다.
 2. GitHub로 로그인합니다.
-3. `JaeyeongLee1/eds-website` 저장소를 선택합니다.
+3. `kaist-eds-lab/eds-website` 저장소를 선택합니다.
 4. 왼쪽에서 수정할 항목을 고릅니다.
    - Professor
    - Members
@@ -47,7 +47,7 @@ Members에서 Ph.D. 또는 M.S. 목록에 학생을 추가합니다.
 
 ## ChatGPT/AI에게 부탁하는 방법
 
-GitHub 쓰기 권한을 사용할 수 있는 ChatGPT/Codex/AI 환경이라면 저장소를 연결한 뒤 다음처럼 요청하면 됩니다.
+GitHub 쓰기 권한을 사용할 수 있는 ChatGPT/Codex/AI 환경이라면 `kaist-eds-lab/eds-website` 저장소를 연결한 뒤 다음처럼 요청하면 됩니다.
 
 - `eds-website에 이 논문을 추가해줘. AGENTS.md 규칙을 따라줘.`
 - `김OO 학생을 Ph.D. Members에 추가해줘. 아래 정보 외에는 추측하지 마.`
@@ -74,7 +74,8 @@ CMS를 사용할 수 없을 때 GitHub에서 아래 파일을 직접 열고 연�
 - 새 학생이나 alumni의 affiliation/homepage를 추측하지 않습니다.
 - 디자인 변경과 콘텐츠 업데이트를 분리합니다.
 - 문제가 생기면 GitHub commit history에서 이전 상태로 되돌릴 수 있습니다.
+- Organization에는 장기 운영을 위해 Owner를 최소 두 명 두는 것을 권장합니다.
 
-## eds.kaist.ac.kr 전환 전
+## eds.kaist.ac.kr 연결
 
-새 GitHub Pages 버전이 완전히 검증되기 전에는 현재 Google Sites 홈페이지나 KAIST DNS 설정을 삭제/변경하지 않습니다. 최종 검증 후 도메인만 새 사이트로 전환합니다.
+저장소는 `eds.kaist.ac.kr` custom domain 기준으로 구성되어 있습니다. 루트의 `CNAME` 파일과 `_config.yml`은 해당 도메인을 사용합니다. DNS 전환 시 `eds.kaist.ac.kr`의 CNAME이 `kaist-eds-lab.github.io`를 가리키도록 설정해야 합니다.
