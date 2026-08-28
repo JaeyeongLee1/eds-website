@@ -1,0 +1,56 @@
+year: 2023
+items:
+- code: J50
+  type: journal
+  title: Prediction of Highly Imbalanced Semiconductor Chip-Level Defects in Module Tests Using Multimodal Fusion and Logit Adjustment
+  authors: H. Cho, W. Koo, and H. Kim
+  citation: IEEE Transactions on Semiconductor Manufacturing, 36(3), 425-433.
+  venue: IEEE Transactions on Semiconductor Manufacturing
+- code: J49
+  type: journal
+  title: Semi-supervised learning for simultaneous location detection and classification of mixed-type defect patterns in wafer bin maps
+  authors: H. Lee, J. Lee, and H. Kim
+  citation: IEEE Transactions on Semiconductor Manufacturing, 36(2), 220-230.
+  venue: IEEE Transactions on Semiconductor Manufacturing
+- code: J48
+  type: journal
+  title: Contextual anomaly detection for multivariate time series data
+  authors: H. Kim and H. Kim
+  citation: Quality Engineering, 35(4), 686-695.
+  venue: Quality Engineering
+- code: C9
+  type: conference
+  title: Inverse-Reference Priors for Fisher Regularization of Bayesian Neural Networks
+  authors: K. Kim, E.-Y. Ma, J. Choi, and H. Kim
+  citation: Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI-23), Washington, DC, USA, February 2023.
+  venue: AAAI
+- code: J47
+  type: journal
+  title: Contextual anomaly detection for high-dimensional data using Dirichlet process variational autoencoder
+  authors: H. Kim and H. Kim
+  citation: IISE Transactions, 55(5), 433-444.
+  venue: IISE Transactions
+- code: J46
+  type: journal
+  title: Label-Noise Robust Deep Generative Model for Semi-Supervised Learning
+  authors: H. Yoon and H. Kim
+  citation: Technometrics, 65(1), 83-95.
+  venue: Technometrics
+- code: J45
+  type: journal
+  title: Prediction of highly imbalanced semiconductor chip-level defects using uncertainty-based adaptive margin learning
+  authors: S. Park, K. Kim, and H. Kim
+  citation: IISE Transactions, 55(2), 147-155.
+  venue: IISE Transactions
+- code: J44
+  type: journal
+  title: Deep embedding kernel mixture networks for conditional anomaly detection in high-dimensional data
+  authors: H. Kim and H. Kim
+  citation: International Journal of Production Research , 61(4), 1101-1113.
+  venue: International Journal of Production Research
+- code: J43
+  type: journal
+  title: 'Toward data-driven digital therapeutics analytics: literature review and research directions'
+  authors: U. Lee, G. Jung, E.-Y. Ma, J. S. Jim, H. Kim, J. Aikhanov, Y. Noh, and H. Kim
+  citation: IEEE/CAA Journal of Automatica Sinica, 10(1), 42-66.
+  venue: IEEE/CAA Journal of Automatica Sinica
