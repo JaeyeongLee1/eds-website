@@ -1,0 +1,44 @@
+year: 2017
+items:
+- code: J18
+  type: journal
+  title: Hierarchical spatially varying coefficient process model
+  authors: H. Kim and J. Lee
+  citation: Technometrics, 59(4), 521-527.
+  venue: Technometrics
+- code: J17
+  type: journal
+  title: 'TrailSense: a crowdsensing system for detecting risky mountain trail segments with walking pattern analysis'
+  authors: K. Kim, H. Zabihi, H. Kim, and U. Lee
+  citation: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 1(3), Article 65. (Presented at UbiComp 2017)
+  venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+- code: J16
+  type: journal
+  title: 'Incorporation of engineering knowledge into the modeling process: a local approach'
+  authors: H. Kim, J. T. Vastola, S. Kim, J.-C. Lu, and M. A. Grover
+  citation: International Journal of Production Research, 55(20), 5865-5880.
+  venue: International Journal of Production Research
+- code: J15
+  type: journal
+  title: Detection of PVC by using a wavelet-based statistical ECG monitoring procedure
+  authors: Y. Jung and H. Kim
+  citation: Biomedical Signal Processing and Control, 36, 176-182.
+  venue: Biomedical Signal Processing and Control
+- code: J14
+  type: journal
+  title: Early detection of vessel delays using combined historical and real-time information
+  authors: S. Kim, H. Kim, and Y. Park
+  citation: Journal of the Operational Research Society, 68(2), 182-191.
+  venue: Journal of the Operational Research Society
+- code: J13
+  type: journal
+  title: Batch sequential minimum energy design with design region adaptation
+  authors: H. Kim, J. T. Vastola, S. Kim, J.-C. Lu, and M. A. Grover
+  citation: Journal of Quality Technology, 49(1), 11-26.
+  venue: Journal of Quality Technology
+- code: J12
+  type: journal
+  title: An integrated holistic model of a complex process
+  authors: H. Kim, S. Kim, J. Deng, J.-C. Lu, K. Wang, C. Zhang, M. A. Grover, and B. Wang
+  citation: International Journal of Advanced Manufacturing Technology, 89(1), 1137-1147.
+  venue: International Journal of Advanced Manufacturing Technology
