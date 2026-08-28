@@ -1,0 +1,38 @@
+year: 2026
+items:
+- code: C17
+  type: conference
+  title: 'GT-PSSM: Unified Probabilistic Framework for Stochastic Dynamics Modeling and Dependency Learning in Multivariate Time Series Anomaly Detection'
+  authors: W. Koo, J. Lee, T. Yoon, and H. Kim
+  citation: 35th International ACM Conference on Knowledge and Information Management (CIKM) , Rome, Italy, November 2026.
+  venue: CIKM
+- code: J64
+  type: journal
+  title: Knowledge-Assisted Multi-Graph Dependency Learning for Multivariate Time Series Anomaly Detection in Multi-Stage Industrial Processes
+  authors: J. Lee, T. Yoon, W. Koo, and H. Kim
+  citation: IEEE Transactions on Automation Science and Engineering, accepted.
+  venue: IEEE Transactions on Automation Science and Engineering
+- code: J63
+  type: journal
+  title: Order-based Causal Discovery for Multistage Processes
+  authors: E.-Y. Ma, J. Jung, and H. Kim
+  citation: IEEE Transactions on Knowledge and Data Engineering, accepted.
+  venue: IEEE Transactions on Knowledge and Data Engineering
+- code: C16
+  type: conference
+  title: Nonlocal Bayesian Modeling of Continuous Spatio-Temporal Dynamics
+  authors: J. Lee and H. Kim
+  citation: Forty-Second Annual Conference on Uncertainty in Artificial Intelligence (UAI), Amsterdam, Netherlands, August 2026.
+  venue: UAI
+- code: C15
+  type: conference
+  title: 'Courtroom Analogy: New Perspective on Uncertainty-Aware Classification'
+  authors: T. Yoon and H. Kim
+  citation: International Conference on Machine Learning (ICML), Seoul, South Korea, July 2026.
+  venue: ICML
+- code: J62
+  type: journal
+  title: Multimodal Deep Generative Model for Semi-Supervised Learning under Class Imbalance
+  authors: H. Yoon and H. Kim
+  citation: Technometrics, https://doi.org/10.1080/00401706.2026.2637593.
+  venue: Technometrics
