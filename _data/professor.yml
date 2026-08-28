@@ -1,0 +1,50 @@
+name: "Heeyoung Kim (김희영)"
+chair: "KAIST Endowed Chair Professor (KAIST 지정 석좌교수)"
+positions:
+  - "Associate Professor, Department of Industrial and Systems Engineering"
+  - "Adjunct Professor, Graduate School of Artificial Intelligence"
+institution: "Korea Advanced Institute of Science & Technology (KAIST)"
+address: "291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea"
+office: "E2-1 #4214"
+tel: "(82)+42-350-3125"
+email: "heeyoungkim(at)kaist.ac.kr"
+photo: "https://jaeyeonglee1.github.io/eds-lab-preview/professor/professor-photo.jpg"
+
+research_interests:
+  - "Statistics"
+  - "Data Science"
+  - "Artificial Intelligence"
+  - "Quality Engineering"
+
+research_goal: "Engineering Data Science Lab’s primary research goal is to advance data science methodologies, with a focus on addressing complex real-world challenges and improving the quality of industrial systems."
+
+editorship:
+  - "Associate Editor, Technometrics, January 2025- present"
+  - "Associate Editor, IISE Transactions, November 2020- present"
+  - "Associate Editor, IEEE Transactions on Automation Science and Engineering, January 2021-December 2023"
+
+awards:
+  - "Technometrics Outstanding Associate Editor Award, 2026"
+  - "Council Member, INFORMS Quality Statistics and Reliability (QSR) Section, 2025-2027"
+  - "Korea Assistant Vice President (International), IISE, 2025-2028"
+  - "IISE Quality Control and Reliability Engineering (QCRE) Track Best Paper Competition Finalist, IISE Annual Conference, May 2025"
+  - "KAIST Endowed Chair Professor, March 2025 (KAIST 지정 석좌교수)"
+  - "IISE Quality Control and Reliability Engineering (QCRE) Track Best Paper Competition Finalist, IISE Annual Conference, May 2024"
+  - "Academic Excellence Award, Department of Industrial and Systems Engineering, KAIST, December 2023"
+  - "Editor's Choice for Featured Article, IISE Transactions (2022)"
+  - "KAIST Academic Excellence Award, (Outstanding Faculty Award in Commemoration of the 51st Founding Anniversary), KAIST, February 2022 (KAIST 학술상)"
+  - "Technology Innovation Award, College of Engineering, KAIST, December 2019"
+  - "Academic Excellence Award, Department of Industrial and Systems Engineering, KAIST, December 2019"
+  - "KAIST TOP 10 Research Achievements of 2018, KAIST, April 2019 (KAIST 대표연구 우수성과 10선)"
+  - "Editor's Choice for Featured Article, IISE Transactions (2018)"
+
+education:
+  - "Ph.D. in Industrial Engineering (with specialization in Statistics), Georgia Institute of Technology, August 2011"
+  - "M.S. in Statistics, Georgia Institute of Technology, May 2008"
+  - "M.S. in Industrial Engineering, KAIST, February 2005"
+  - "B. S. in Industrial Engineering, KAIST, February 2003"
+
+professional_experience:
+  - "Associate Professor, Department of Industrial and Systems Engineering, KAIST, March 2018 - present"
+  - "Assistant Professor, Department of Industrial and Systems Engineering, KAIST, December 2013 - February 2018"
+  - "Senior Member of Technical Staff, AT&T Labs (New Jersey, USA), September 2011-December 2013"
