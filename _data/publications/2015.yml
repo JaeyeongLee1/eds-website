@@ -1,0 +1,14 @@
+year: 2015
+items:
+- code: J8
+  type: journal
+  title: Adaptive combined space-filling and D-optimal designs
+  authors: S. Kim, H. Kim, R. W. Lu, J.-C. Lu, M. J. Casciato, and M. A. Grover
+  citation: International Journal of Production Research, 53(17), 5354-5368.
+  venue: International Journal of Production Research
+- code: J7
+  type: journal
+  title: Layers of experiments with adaptive combined design
+  authors: S. Kim, H. Kim, J.-C. Lu, M. J. Casciato, M. A. Grover, D. W. Hess, R. W. Lu, and X. Wang
+  citation: Naval Research Logistics, 62(2), 127-142.
+  venue: Naval Research Logistics
