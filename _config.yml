@@ -8,3 +8,4 @@ exclude:
   - README.md
   - ADMIN_GUIDE.md
   - AGENTS.md
+  - vendor
