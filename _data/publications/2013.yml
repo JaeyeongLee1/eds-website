@@ -1,0 +1,14 @@
+year: 2013
+items:
+- code: J3
+  type: journal
+  title: Optimal sampling and curve interpolation via wavelets
+  authors: H. Kim and X. Huo
+  citation: Applied Mathematics Letters, 26(7), 774-779.
+  venue: Applied Mathematics Letters
+- code: J2
+  type: journal
+  title: Dependence maps, a dimensionality reduction with dependence distance for high-dimensional data
+  authors: K. Lee, A. Gray, and H. Kim
+  citation: Data Mining and Knowledge Discovery, 26(3), 512-532.
+  venue: Data Mining and Knowledge Discovery
