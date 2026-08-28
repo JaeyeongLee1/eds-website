@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ site.baseurl }}/professor/">
+      <strong><span class="eds-initial">E</span>ngineering <span class="eds-initial">D</span>ata <span class="eds-initial">S</span>cience Lab.</strong>
+      <span>Department of Industrial and Systems Engineering, KAIST</span>
+    </a>
+    <nav class="page-nav" aria-label="Primary navigation">
+      <a{% if page.nav == 'professor' %} class="active"{% endif %} href="{{ site.baseurl }}/professor/">Professor</a>
+      <a{% if page.nav == 'research' %} class="active"{% endif %} href="{{ site.baseurl }}/research/">Research</a>
+      <a{% if page.nav == 'members' %} class="active"{% endif %} href="{{ site.baseurl }}/members/">Members</a>
+      <a{% if page.nav == 'alumni' %} class="active"{% endif %} href="{{ site.baseurl }}/alumni/">Alumni</a>
+    </nav>
+  </div>
+</header>
