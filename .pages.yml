@@ -173,9 +173,9 @@ content:
             required: true
             options:
               values:
-                - value: journal
+                - name: journal
                   label: Journal
-                - value: conference
+                - name: conference
                   label: Conference
           - name: title
             label: Title
