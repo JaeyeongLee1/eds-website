@@ -1,0 +1,20 @@
+year: 2014
+items:
+- code: J6
+  type: journal
+  title: Asymptotic optimality of a multivariate version of the generalized cross validation in adaptive smoothing splines
+  authors: H. Kim and X. Huo
+  citation: Electronic Journal of Statistics, 8, 159-183.
+  venue: Electronic Journal of Statistics
+- code: J5
+  type: journal
+  title: A Lipschitz regularity-based statistical model, with applications in coordinate metrology
+  authors: H. Kim, X. Huo, M. Shilling, and H. Tran
+  citation: IEEE Transactions on Automation Science and Engineering, 11(2), 327-337.
+  venue: IEEE Transactions on Automation Science and Engineering
+- code: J4
+  type: journal
+  title: A single interval based classifier
+  authors: H. Kim, X. Huo, and Jianjun Shi
+  citation: Annals of Operations Research, 216, 307-325.
+  venue: Annals of Operations Research
