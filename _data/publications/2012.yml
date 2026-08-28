@@ -1,0 +1,8 @@
+year: 2012
+items:
+- code: J1
+  type: journal
+  title: Locally optimal adaptive smoothing splines
+  authors: H. Kim and X. Huo
+  citation: Journal of Nonparametric Statistics, 24(3), 665-680.
+  venue: Journal of Nonparametric Statistics
