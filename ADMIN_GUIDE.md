@@ -11,13 +11,16 @@
    - Professor
    - Members
    - Publications
-   - Alumni
+   - Ph.D. Alumni
+   - M.S. Alumni
 5. 필요한 내용만 수정하고 Save를 누릅니다.
 6. 저장하면 GitHub에 변경 내역이 기록되고, GitHub Pages가 자동으로 새 홈페이지를 빌드합니다.
 
 ### 논문 추가
 
-Publications에서 새 항목을 추가하고 다음 사실만 입력합니다.
+Publications는 연도별로 정리되어 있습니다. 기존 연도에 논문을 추가할 때는 해당 연도를 열고 Publications 목록에 항목을 추가합니다. 새 연도라면 Publications에서 새 연도 파일을 만든 뒤 논문을 입력합니다.
+
+입력 항목은 다음과 같습니다.
 
 - Year
 - Code
@@ -40,7 +43,7 @@ Members에서 Ph.D. 또는 M.S. 목록에 학생을 추가합니다.
 - Homepage (있는 경우만)
 - Photo
 
-사진은 CMS에서 업로드할 수 있도록 구성되어 있습니다.
+사진은 CMS에서 업로드할 수 있도록 구성되어 있습니다. 업로드된 사진은 `assets/images/` 안에 저장됩니다.
 
 ## ChatGPT/AI에게 부탁하는 방법
 
@@ -56,10 +59,11 @@ AI는 먼저 `AGENTS.md`를 읽고, 일반적인 콘텐츠 수정에서는 `_dat
 
 CMS를 사용할 수 없을 때 GitHub에서 아래 파일을 직접 열고 연필 아이콘으로 수정할 수 있습니다.
 
-- `_data/professor.yml`
-- `_data/members.yml`
-- `_data/publications.yml`
-- `_data/alumni.yml`
+- Professor: `_data/professor.yml`
+- Members: `_data/members.yml`
+- Publications: `_data/publications/<연도>.yml`
+- Ph.D. Alumni: `_data/alumni/phd.yml`
+- M.S. Alumni: `_data/alumni/ms.yml`
 
 디자인 파일인 `assets/css/`, `_layouts/`, `_includes/`는 홈페이지 디자인을 바꾸려는 경우가 아니면 수정하지 않는 것이 안전합니다.
 
