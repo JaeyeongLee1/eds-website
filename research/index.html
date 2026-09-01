@@ -29,13 +29,11 @@ stylesheet: research.css
         <article class="publication-row">
           <div class="pub-code {{ pub.type }}"><span class="code-letter">{{ pub.code | slice: 0 }}</span><span class="code-number">{{ pub.code | slice: 1, 4 }}</span></div>
           <div class="pub-main">
-            <div class="pub-heading">
-              <span class="venue-badge">{{ pub.venue }}</span>
-              <h3>{{ pub.title }}</h3>
-            </div>
+            <h3>{{ pub.title }}</h3>
             <p class="authors">{{ pub.authors }}</p>
             <p class="pub-meta">{{ pub.citation }}</p>
           </div>
+          <div class="venue"><span class="venue-name">{{ pub.venue }}</span></div>
         </article>
         {% endfor %}
       </div>
