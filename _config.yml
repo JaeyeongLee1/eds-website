@@ -1,7 +1,7 @@
 title: "Engineering Data Science Lab."
 description: "Engineering Data Science Lab, Department of Industrial and Systems Engineering, KAIST."
-url: "https://eds.kaist.ac.kr"
-baseurl: ""
+url: "https://kaist-eds-lab.github.io"
+baseurl: "/eds-website"
 permalink: pretty
 
 exclude:
