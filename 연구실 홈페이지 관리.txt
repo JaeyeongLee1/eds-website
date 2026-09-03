@@ -1,5 +1,5 @@
-Github 코드 주소: https://github.com/kaist-eds-lab/eds-website
-웹사이트 주소: https://kaist-eds-lab.github.io/eds-website/professor
+Github 코드 주소: https://github.com/kaist-eds-lab/kaist-eds-lab.github.io
+웹사이트 주소: https://kaist-eds-lab.github.io
 
 웹사이트 수정방법
 
