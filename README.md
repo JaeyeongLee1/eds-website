@@ -16,7 +16,7 @@ The site was migrated from the earlier design prototype into a maintainable, dat
 
 - Hosting: GitHub Pages
 - Production domain: `https://eds.kaist.ac.kr`
-- DNS target for the custom subdomain: `kaist-eds-lab.github.io`
+- DNS target for the custom subdomain: `https://kaist-eds-lab.github.io/eds-website/professor/`
 - Custom-domain declaration: root `CNAME` file
 
 The GitHub-side configuration is ready for the custom domain. The KAIST DNS record must point `eds.kaist.ac.kr` to `kaist-eds-lab.github.io` for the production domain to resolve to this site.
