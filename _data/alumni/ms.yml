@@ -1,122 +1,142 @@
 degree: M.S.
 items:
-- year: 2016
-  name: Jaehwan Lee
-  thesis: Hierarchical Spatially Varying Coefficient Process Models with Application to Housing Market Analysis
-  affiliation: SK Telecom
-- year: 2016
-  name: Yonghan Jung
-  thesis: Detection of Premature Ventricular Contraction Using Wavelet-Based Statistical ECG Monitoring
-  affiliation: Assistant professor, School of Information Sciences, University of Illinois at Urbana-Champaign
-- year: 2016
-  name: Hyojoong Kim
-  thesis: Functional Logistic Regression with Fused Lasso Penalty
-  affiliation: Ph.D. student in iStat Lab
-- year: 2016
-  name: Jinho Kim
-  thesis: Detection and Clustering of Mixed-Type Defect Patterns in Wafer Bin Maps
-  affiliation: SK Hynix
-- year: 2016
-  name: Keunseo Kim
-  thesis: 'TrailSense : A Crowdsensing System for Detecting Risky Mountain Trail Segments with Walking Pattern Analysis'
-  affiliation: Ph.D. student in iStat Lab
-- year: 2017
-  name: Jihoon Chung
-  thesis: 'Crime Risk Maps : Multivariate Analysis of Spatial Crime Data'
-  affiliation: Assistant professor, Department of Industrial Engineering, Hanyang University
-- year: 2017
-  name: Vinnam Kim
-  thesis: Spatio-Temporal Autoregressive Models of Monthly Air Passenger Flows
-  affiliation: NCSoft
-- year: 2018
-  name: Kiryong Kyeong
-  thesis: Classification of Mixed-Type Defects Patterns in Wafer Bin Maps Using Convolutional Neural Networks
-  affiliation: NCSoft
-- year: 2018
-  name: Woojin Doo
-  thesis: 'Modeling the Probability of A Batter/Pitcher Matchup Dvent : A Bayesian Approach'
-  affiliation: Ph.D. student in iStat Lab
-- year: 2019
-  name: Taeyoung Ko
-  thesis: Fault Diagnosis for High-Dimensional Complex Process Using Semi-Dupervised Deep Convolutional Generative Models
-  affiliation: NICE
-- year: 2019
-  name: Jeonghyun Choi
-  thesis: Improving Baseball Pitch Type Classification Through Clustering of Pitchers
-  affiliation: TmaxSoft
-- year: 2019
-  name: Eunyeol Ma
-  thesis: Phenotyping Obstructive Sleep Apnea Patients and Prognosis of Their Comorbidities Through Machine Learning Methods
-  affiliation: Ph.D. student in iStat Lab
-- year: 2019
-  name: Wonmo Koo
-  thesis: Bayesian Nonparametric Latent Class Model for Longitudinal Data
-  affiliation: Ph.D. student in iStat Lab
-- year: 2020
-  name: Jongwoo Ko
-  thesis: Deep Gaussian Process Models for Integrating Multifidelity Experiments Having Non-stationary Relationship
-  affiliation: Graduate School of AI, KAIST
-- year: 2020
-  name: Hyuk Lee
-  thesis: Semi-Supervised Multi-Label Learning for Classification of Wafer Bin Maps with Mixed-type Defect Patterns
-  affiliation: Ph.D. student in iStat Lab
-- year: 2020
-  name: Yunseung Hyun
-  thesis: Memory-Augmented Convolutional Neural Networks with Triplet Loss for Imbalanced Wafer Defect Pattern Classification
-  affiliation: ''
-- year: 2020
-  name: Jonghyun Hwang
-  thesis: Variational Deep Clustering of Wafer Map Patterns
-  affiliation: Samsung Electronics
-- year: 2021
-  name: Sumin Park
-  thesis: A Bayesian Deep Learning Method for Predicting Highly Imbalanced Package Test Results
-  affiliation: SK Hynix
-- year: 2021
-  name: Sumin Kim
-  thesis: Noisy Label Correction for Classification of Wafer Bin Maps with Mixed-Type Defect Patterns
-  affiliation: Hyundai Card
-- year: 2021
-  name: Junsub Jung
-  thesis: Location Dependent Dirichlet Process Mixture Model for Clustering Spatially Correlated Time Series
-  affiliation: Ph.D. student in iStat Lab
-- year: 2022
-  name: Jaehyun Lee
-  thesis: Semi-Supervised Learning for Simultaneous Location Detection and Classification of Mixed-Type Defect Patterns in Wafer Bin Maps
-  affiliation: Samsung Electronics
-- year: 2022
-  name: Junchul Shin
-  thesis: Open Set Recognition of Wafer Bin Map Defect Patterns
-  affiliation: ClassOn
-- year: 2022
-  name: Hyeonwoo Kim
-  thesis: Weakly Supervised Semantic Segmentation for Classifying Wafer Chip-Level Defect Types
-  affiliation: Upstage
-- year: 2023
-  name: Hunsung Cho
-  thesis: Prediction of Highly Imbalanced Semiconductor Chip-Level Defects in Module Tests Using Multimodal Fusion and Logit Adjustment
-  affiliation: SK Hynix
-- year: 2023
-  name: Hyeonwoo Kim
-  thesis: Few-Shot Classification of Wafer Bin Maps Using Transfer Learning and Ensemble Learning
-  affiliation: Samsung Electronics
-- year: 2023
-  name: Jeongman Choi
-  thesis: Classification and Out-of-Distribution Detection for Wafer Bin Maps
-  affiliation: Samsung Electronics
-- year: 2024
-  name: Taemin Park
-  thesis: 'CDRA: Class Distribution-Based Re-Balancing Algorithm for Class-Imbalanced Semi-Supervised Learning'
-  affiliation: Ph.D. student in iStat Lab
-- year: 2024
-  name: Jaeyeong Lee
-  thesis: Knowledge-Assisted Multi-Graph Structure Learning for Multivariate Time-Series Anomaly Detection in Multi-Stage Industrial Processes
-  affiliation: Ph.D. student in iStat Lab
-- year: 2026
-  name: Sanha Chang
-  thesis: Robust Vessel Trajectory Prediction Under Long Missing Gaps
-  affiliation: Alsemy
-- year: 2026
-  name: Seungjun Choi
-  thesis: Toward Uniformly Flat Minima for Domain Generalization
-  affiliation: Ph.D. student in iStat Lab
+  - year: 2016
+    name: Jaehwan Lee
+    thesis: Hierarchical Spatially Varying Coefficient Process Models with
+      Application to Housing Market Analysis
+    affiliation: SK Telecom
+  - year: 2016
+    name: Yonghan Jung
+    thesis: Detection of Premature Ventricular Contraction Using Wavelet-Based
+      Statistical ECG Monitoring
+    affiliation: Assistant professor, School of Information Sciences, University of
+      Illinois at Urbana-Champaign
+  - year: 2016
+    name: Hyojoong Kim
+    thesis: Functional Logistic Regression with Fused Lasso Penalty
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2016
+    name: Jinho Kim
+    thesis: Detection and Clustering of Mixed-Type Defect Patterns in Wafer Bin Maps
+    affiliation: SK Hynix
+  - year: 2016
+    name: Keunseo Kim
+    thesis: "TrailSense : A Crowdsensing System for Detecting Risky Mountain Trail
+      Segments with Walking Pattern Analysis"
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2017
+    name: Jihoon Chung
+    thesis: "Crime Risk Maps : Multivariate Analysis of Spatial Crime Data"
+    affiliation: Assistant professor, Department of Industrial Engineering, Hanyang
+      University
+  - year: 2017
+    name: Vinnam Kim
+    thesis: Spatio-Temporal Autoregressive Models of Monthly Air Passenger Flows
+    affiliation: Qualcomm
+  - year: 2018
+    name: Kiryong Kyeong
+    thesis: Classification of Mixed-Type Defects Patterns in Wafer Bin Maps Using
+      Convolutional Neural Networks
+    affiliation: NCSoft
+  - year: 2018
+    name: Woojin Doo
+    thesis: "Modeling the Probability of A Batter/Pitcher Matchup Dvent : A Bayesian
+      Approach"
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2019
+    name: Taeyoung Ko
+    thesis: Fault Diagnosis for High-Dimensional Complex Process Using
+      Semi-Dupervised Deep Convolutional Generative Models
+    affiliation: NICE
+  - year: 2019
+    name: Jeonghyun Choi
+    thesis: Improving Baseball Pitch Type Classification Through Clustering of Pitchers
+    affiliation: TmaxSoft
+  - year: 2019
+    name: Eunyeol Ma
+    thesis: Phenotyping Obstructive Sleep Apnea Patients and Prognosis of Their
+      Comorbidities Through Machine Learning Methods
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2019
+    name: Wonmo Koo
+    thesis: Bayesian Nonparametric Latent Class Model for Longitudinal Data
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2020
+    name: Jongwoo Ko
+    thesis: Deep Gaussian Process Models for Integrating Multifidelity Experiments
+      Having Non-stationary Relationship
+    affiliation: Graduate School of AI, KAIST
+  - year: 2020
+    name: Hyuk Lee
+    thesis: Semi-Supervised Multi-Label Learning for Classification of Wafer Bin
+      Maps with Mixed-type Defect Patterns
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2020
+    name: Yunseung Hyun
+    thesis: Memory-Augmented Convolutional Neural Networks with Triplet Loss for
+      Imbalanced Wafer Defect Pattern Classification
+  - year: 2020
+    name: Jonghyun Hwang
+    thesis: Variational Deep Clustering of Wafer Map Patterns
+    affiliation: Samsung Electronics
+  - year: 2021
+    name: Sumin Park
+    thesis: A Bayesian Deep Learning Method for Predicting Highly Imbalanced Package
+      Test Results
+    affiliation: SK Hynix
+  - year: 2021
+    name: Sumin Kim
+    thesis: Noisy Label Correction for Classification of Wafer Bin Maps with
+      Mixed-Type Defect Patterns
+    affiliation: Hyundai Card
+  - year: 2021
+    name: Junsub Jung
+    thesis: Location Dependent Dirichlet Process Mixture Model for Clustering
+      Spatially Correlated Time Series
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2022
+    name: Jaehyun Lee
+    thesis: Semi-Supervised Learning for Simultaneous Location Detection and
+      Classification of Mixed-Type Defect Patterns in Wafer Bin Maps
+    affiliation: Samsung Electronics
+  - year: 2022
+    name: Junchul Shin
+    thesis: Open Set Recognition of Wafer Bin Map Defect Patterns
+    affiliation: ClassOn
+  - year: 2022
+    name: Hyeonwoo Kim
+    thesis: Weakly Supervised Semantic Segmentation for Classifying Wafer Chip-Level
+      Defect Types
+    affiliation: Upstage
+  - year: 2023
+    name: Hunsung Cho
+    thesis: Prediction of Highly Imbalanced Semiconductor Chip-Level Defects in
+      Module Tests Using Multimodal Fusion and Logit Adjustment
+    affiliation: SK Hynix
+  - year: 2023
+    name: Hyeonwoo Kim
+    thesis: Few-Shot Classification of Wafer Bin Maps Using Transfer Learning and
+      Ensemble Learning
+    affiliation: Samsung Electronics
+  - year: 2023
+    name: Jeongman Choi
+    thesis: Classification and Out-of-Distribution Detection for Wafer Bin Maps
+    affiliation: Samsung Electronics
+  - year: 2024
+    name: Taemin Park
+    thesis: "CDRA: Class Distribution-Based Re-Balancing Algorithm for
+      Class-Imbalanced Semi-Supervised Learning"
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2024
+    name: Jaeyeong Lee
+    thesis: Knowledge-Assisted Multi-Graph Structure Learning for Multivariate
+      Time-Series Anomaly Detection in Multi-Stage Industrial Processes
+    affiliation: Ph.D. student in iStat Lab
+  - year: 2026
+    name: Sanha Chang
+    thesis: Robust Vessel Trajectory Prediction Under Long Missing Gaps
+    affiliation: Alsemy
+  - year: 2026
+    name: Seungjun Choi
+    thesis: Toward Uniformly Flat Minima for Domain Generalization
+    affiliation: Ph.D. student in iStat Lab
